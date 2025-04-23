@@ -1,13 +1,13 @@
 //  Importar o Express
 import express from 'express';
 
-//  Importar nossas rotas definidas (importa o export default), não esquecer a extensão .js
+
 import ecoRoutes from './src/routes/ecoRoutes.js';
 
 //  Criar a instância do app Express
 const app = express();
 
-//  Definir a porta
+
 const PORT = 3000;
 
 //  Usar as rotas importadas
