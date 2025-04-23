@@ -11,7 +11,9 @@ Este projeto foi criado como parte de um exercício de desenvolvimento backend, 
 O código está organizado da seguinte forma:
 
 eco-conecta-api/
+
 ├── src/
+
 │   ├── models/         # Camada de dados (simulados)
 │   │   └── ecoData.js
 │   ├── controllers/    # Lógica das requisições
