@@ -12,19 +12,20 @@ O código está organizado da seguinte forma:
 
 eco-conecta-api/
 
-├── src/
-
-│   ├── models/         # Camada de dados (simulados)
-│   │   └── ecoData.js
-│   ├── controllers/    # Lógica das requisições
+eco-conecta-api/
+├── node_modules/        
+├── src/                  # Código fonte da aplicação
+│   ├── controllers/      # Lógica de controle das rotas
 │   │   └── ecoController.js
-│   └── routes/         # Definição das rotas
+│   ├── models/           # Camada de dados (simulados)
+│   │   └── ecoData.js
+│   └── routes/           # Definição das rotas da API
 │       └── ecoRoutes.js
-├── node_modules/
-├── package.json      
-├── package-lock.json
-├── README.md          
-└── server.js           # Ponto de entrada e inicialização do servidor
+├── .gitignore            
+├── package-lock.json    
+├── package.json          
+├── README.md             
+└── server.js             # Ponto de entrada e inicialização do servidor Express
 
 ## Como Rodar Localmente
 
