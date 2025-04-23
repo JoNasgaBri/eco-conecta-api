@@ -11,17 +11,14 @@ Este projeto foi criado como parte de um exercício de desenvolvimento backend, 
 O código está organizado da seguinte forma:
 
 eco-conecta-api/
-
-eco-conecta-api/
 ├── node_modules/        
 ├── src/                  # Código fonte da aplicação
-│   ├── controllers/      # Lógica de controle das rotas
-│   │   └── ecoController.js
-│   ├── models/           # Camada de dados (simulados)
-│   │   └── ecoData.js
-│   └── routes/           # Definição das rotas da API
-│       └── ecoRoutes.js
-├── .gitignore            
+  ├── controllers/      # Lógica de controle das rotas
+  │   └── ecoController.js
+  ├── models/           # Camada de dados (simulados)
+  │   └── ecoData.js
+   └── routes/           # Definição das rotas da API
+       └── ecoRoutes.js         
 ├── package-lock.json    
 ├── package.json          
 ├── README.md             
